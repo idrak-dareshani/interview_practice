@@ -66,7 +66,7 @@ st.title("🎯 AI Interview Practice")
 st.write("Practice multiple-choice interview questions tailored to your skills")
 
 # Candidate profile
-role = st.text_input("Role (e.g., Data Scientist, Backend Developer)")
+role = st.text_input("Role (e.g., Data Scientist, Backend Developer or any professional role)")
 skills = st.text_input("Enter your skills (comma-separated)")
 exp = st.number_input("Years of experience", min_value=0, max_value=50, step=1)
 num_qs = st.slider("How many Questions?", 1, 10, 5)
